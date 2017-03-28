@@ -1,0 +1,226 @@
+<actor name="Doug" version="2121" path="" render_asset="Doug-FG_Collapsed" default_analysis_actor="">
+    <face_graph>
+        <bones>
+            <bone name="Neck1" weight="1">5.693978 0 0 -0.990851 0 -0.134964 0 1 1 1</bone>
+            <bone name="Head" weight="1">10.216066 0 0 -0.968436 0 -0.249262 0 1 1 1</bone>
+            <bone name="HeadEnd" weight="1">17.760672 0 0 0 -0.707107 -0.707107 0 1 1 1</bone>
+           
+            <bone name="Jaw" weight="1">0.654943 0 -0.792182 -1 0 0 0 1 1 1</bone>
+            <bone name="TongueR" weight="1">-2.910286 0 -2.628739 -1 0 0 0 1 1 1</bone>
+            <bone name="TongueF" weight="1">0 0 -2.780869 -1 0 0 0 1 1 1</bone>
+            <bone name="LipLowerR" weight="1">-2.392723 -0.990689 -9.176394 -1 0 0 0 1 1 1</bone>
+            <bone name="LipLowerL" weight="1">-2.392397 0.990689 -9.176373 0 0 1 0 1 1 1</bone>
+            <bone name="Nostrils" weight="1">1.130514 0.01057 -9.691848 -1 0 0 0 1 1 1</bone>
+            <bone name="LipUpperR" weight="1">-1.518694 -0.761625 -10.585534 -1 0 0 0 1 1 1</bone>
+            <bone name="LipUpperL" weight="1">-1.518454 0.761625 -10.585555 0 0 1 0 1 1 1</bone>
+            <bone name="LipCornerR" weight="1">-1.718432 -2.684361 -8.856761 -1 0 0 0 1 1 1</bone>
+            <bone name="LipCornerL" weight="1">-1.718454 2.68436 -8.856754 0 0 1 0 1 1 1</bone>
+            <bone name="BrowInnerR" weight="1">8.139448 -2.365652 -9.565538 -1 0 0 0 1 1 1</bone>
+            <bone name="BrowInnerL" weight="1">8.139546 2.36565 -9.565555 0 0 1 0 1 1 1</bone>
+            <bone name="BrowOuterR" weight="1">7.648664 -5.440681 -8.036109 -1 0 0 0 1 1 1</bone>
+            <bone name="BrowOuterL" weight="1">7.648546 5.44068 -8.036155 0 0 1 0 1 1 1</bone>
+           
+            <bone name="LowerLidR" weight="1">4.982572 -3.190082 -8.464907 -1 0 0 0 1 1 1</bone>
+            <bone name="LowerLidL" weight="1">4.982546 3.19008 -8.464954 0 0 1 0 1 1 1</bone>
+            <bone name="CheekR" weight="1">2.424314 -4.042849 -8.994899 -1 0 0 0 1 1 1</bone>
+            <bone name="CheekL" weight="1">2.424546 4.04285 -8.994855 0 0 1 0 1 1 1</bone>
+        </bones>
+        <nodes>
+            <node type="FxBonePoseNode" name="W" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Jaw">0.631495 0 -0.774718 -0.999913 0 0.013235 0 1 1 1</bone>
+                    <bone name="LipLowerR">-2.30179 -0.585666 -9.490038 -0.987672 -0.011376 0.08641 0.130029 1 1 1</bone>
+                    <bone name="LipLowerL">-2.301297 0.752158 -9.490034 0.08641 0.130029 0.987672 0.011376 1 1 1</bone>
+                    <bone name="LipUpperR">-1.5621 -0.363849 -10.694111 -0.987672 -0.011376 -0.08641 -0.130029 1 1 1</bone>
+                    <bone name="LipUpperL">-1.561744 0.486266 -10.694074 -0.08641 -0.130029 0.987672 0.011376 1 1 1</bone>
+                    <bone name="LipCornerR">-1.803246 -1.392963 -9.339258 -1 0 0 0 1 1 1</bone>
+                    <bone name="LipCornerL">-1.802856 1.39258 -9.339212 0 0 1 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="ShCh" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Jaw">0.631495 0 -0.774718 -0.999887 0 0.015002 0 1 1 1</bone>
+                    <bone name="LipLowerR">-2.447885 -0.611238 -9.108341 -0.994337 -0.005321 0.086993 0.060816 1 1 1</bone>
+                    <bone name="LipLowerL">-2.447392 0.810026 -9.108337 0.087381 0.060258 0.99435 -0.001049 1 1 1</bone>
+                    <bone name="LipUpperR">-1.411712 -0.580217 -10.539623 -0.992404 -0.007596 -0.086824 -0.086824 1 1 1</bone>
+                    <bone name="LipUpperL">-1.411356 0.762214 -10.539586 -0.086824 -0.086824 0.992404 0.007596 1 1 1</bone>
+                    <bone name="LipCornerR">-1.803245 -1.651582 -9.07125 -1 0 0 0 1 1 1</bone>
+                    <bone name="LipCornerL">-1.802857 1.651787 -9.071253 0 0 1 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="PBM" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Jaw">0.631495 0 -0.774718 -0.999962 0 -0.008727 0 1 1 1</bone>
+                    <bone name="LipLowerR">-2.234358 -0.963557 -8.650143 -0.994337 0.00532 -0.086993 0.060817 1 1 1</bone>
+                    <bone name="LipLowerL">-2.233864 0.963557 -8.650139 -0.086993 0.060817 0.994337 -0.00532 1 1 1</bone>
+                    <bone name="LipUpperR">-1.712424 -0.741036 -10.024895 -0.991403 0.006283 0.117047 -0.058137 1 1 1</bone>
+                    <bone name="LipUpperL">-1.712068 0.741036 -10.024857 0.117012 -0.063418 0.99108 -0.006906 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="FV" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Jaw">0.631495 0 -0.774718 -0.999909 0 0.013504 0 1 1 1</bone>
+                    <bone name="LipLowerR">-2.248796 -0.963557 -8.258872 -0.985565 0.009658 -0.157906 0.06028 1 1 1</bone>
+                    <bone name="LipLowerL">-2.248303 0.963557 -8.258869 -0.157906 0.06028 0.985565 -0.009658 1 1 1</bone>
+                    <bone name="LipUpperR">-1.336172 -0.741036 -10.164966 -0.999048 0 0.043619 0 1 1 1</bone>
+                    <bone name="LipUpperL">-1.335816 0.741036 -10.16493 0.043619 0 0.999048 0 1 1 1</bone>
+                    <bone name="LipCornerR">-1.679455 -2.608698 -8.439327 -1 0 0 0 1 1 1</bone>
+                    <bone name="LipCornerL">-1.679067 2.6087 -8.439278 0 0 1 0 1 1 1</bone>
+                    <bone name="CheekR">2.51644 -3.923322 -8.74418 -1 0 0 0 1 1 1</bone>
+                    <bone name="CheekL">2.516387 3.92332 -8.7441 0 0 1 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="wide" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Jaw">0.631495 0 -0.774718 -0.999926 0 0.012178 0 1 1 1</bone>
+                    <bone name="LipLowerR">-2.332723 -1.083025 -8.8089 -1 0 0 0 1 1 1</bone>
+                    <bone name="LipLowerL">-2.331874 1.092571 -8.823497 0 0 1 0 1 1 1</bone>
+                    <bone name="LipUpperR">-1.487423 -0.860505 -10.183619 -1 0 0 0 1 1 1</bone>
+                    <bone name="LipUpperL">-1.487067 0.870049 -10.198187 0 0 1 0 1 1 1</bone>
+                    <bone name="LipCornerR">-1.483916 -2.840653 -8.486534 -1 0 0 0 1 1 1</bone>
+                    <bone name="LipCornerL">-1.43506 2.92392 -8.534601 0 0 1 0 1 1 1</bone>
+                    <bone name="CheekR">2.569381 -3.923322 -8.74418 -1 0 0 0 1 1 1</bone>
+                    <bone name="CheekL">2.569328 3.92332 -8.7441 0 0 1 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="tBack" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="TongueR">-2.601626 0 -2.902719 -0.94513 0 -0.326696 0 1 1 1</bone>
+                    <bone name="TongueF">-2.557767 -0.255617 -2.130438 -0.565159 0 0.824982 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="tRoof" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="TongueR">-2.833809 0 -2.549682 -0.980179 0.014923 -0.167793 0.104265 1 1 1</bone>
+                    <bone name="TongueF">0.164981 -0.071816 -2.852841 -0.99807 0 -0.062096 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="tTeeth" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="TongueR">-2.833809 0 -2.549682 -0.988653 -0.006708 -0.148682 0.020337 1 1 1</bone>
+                    <bone name="TongueF">-0.177476 0.006497 -4.433488 -0.997454 0 0.071319 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="open" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Jaw">0.631495 0 -0.774718 -0.992733 0 0.120337 0 1 1 1</bone>
+                    <bone name="CheekR">2.16827 -3.923322 -8.74418 -1 0 0 0 1 1 1</bone>
+                    <bone name="CheekL">2.168216 3.92332 -8.7441 0 0 1 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Eyebrow Raise" min="-1" max="1" input_op="sum">
+                <bones>
+                    <bone name="BrowInnerR">8.57724 -2.303488 -9.311988 -1 0 0 0 1 1 1</bone>
+                    <bone name="BrowInnerL">8.577053 2.30348 -9.311998 0 0 1 0 1 1 1</bone>
+                    <bone name="BrowOuterR">8.096205 -5.288799 -7.825938 -1 0 0 0 1 1 1</bone>
+                    <bone name="BrowOuterL">8.096052 5.28879 -7.825998 0 0 1 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Squint" min="-0.5" max="1" input_op="sum">
+                <bones>
+                    <bone name="UpperLidR">5.672154 -3.1019 -8.6085 -1 0 0 0 1 1 1</bone>
+                    <bone name="UpperLidL">5.678853 3.10189 -8.608464 0 0 1 0 1 1 1</bone>
+                    <bone name="LowerLidR">5.352193 -3.1019 -8.471458 -1 0 0 0 1 1 1</bone>
+                    <bone name="LowerLidL">5.337459 3.10189 -8.471443 0 0 1 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Head_Pitch_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Head">9.959331 0 0 -0.999923 0 0.012407 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Head_Yaw_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Head">9.959331 0 0 -0.936043 0.258798 -0.238404 -0.003269 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Head_Roll_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Head">9.959331 0 0 -0.936042 0.003269 -0.238405 0.258799 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="LeftEye_Pitch_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="LeftEye">5.528934 3.10189 -6.751498 -0.5 0 0.866025 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="LeftEye_Yaw_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="LeftEye">5.528934 3.10189 -6.751498 -0.683013 0.183013 0.683013 0.183013 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="RightEye_Pitch_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="RightEye">5.52878 -3.1019 -6.751632 -0.5 0 0.866025 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="RightEye_Yaw_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="RightEye">5.52878 -3.1019 -6.751632 -0.683013 0.183013 0.683013 0.183013 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Head_Pitch_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Head">9.959331 0 0 -0.872163 0 -0.489216 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Head_Yaw_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Head">9.959331 0 0 -0.936043 -0.258798 -0.238404 0.003269 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Head_Roll_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Head">9.959331 0 0 -0.936043 -0.003268 -0.238404 -0.258797 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="LeftEye_Pitch_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="LeftEye">5.528934 3.10189 -6.751498 -0.866025 0 0.5 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="LeftEye_Yaw_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="LeftEye">5.528934 3.10189 -6.751498 -0.683013 -0.183013 0.683013 -0.183013 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="RightEye_Pitch_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="RightEye">5.52878 -3.1019 -6.751632 -0.866025 0 0.5 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="RightEye_Yaw_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="RightEye">5.52878 -3.1019 -6.751632 -0.683013 -0.183013 0.683013 -0.183013 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Blink" min="-0.3" max="1" input_op="sum">
+                <bones>
+                    <bone name="UpperLidR">4.944519 -3.1019 -8.504127 -1 0 0 0 1 1 1</bone>
+                    <bone name="UpperLidL">4.946366 3.10189 -8.504113 0 0 1 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Look_Up_Lids" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="UpperLidR">6.414701 -3.1019 -8.294834 -1 0 0 0 1 1 1</bone>
+                    <bone name="UpperLidL">6.414585 3.10189 -8.294799 0 0 1 0 1 1 1</bone>
+                    <bone name="LowerLidR">5.196395 -3.1019 -8.227814 -1 0 0 0 1 1 1</bone>
+                    <bone name="LowerLidL">5.195584 3.10189 -8.227798 0 0 1 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Look_Down_Lids" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="UpperLidR">5.50651 -3.1019 -8.294834 -1 0 0 0 1 1 1</bone>
+                    <bone name="UpperLidL">5.506394 3.10189 -8.294799 0 0 1 0 1 1 1</bone>
+                    <bone name="LowerLidR">4.505835 -3.1019 -8.227814 -1 0 0 0 1 1 1</bone>
+                    <bone name="LowerLidL">4.505023 3.10189 -8.227798 0 0 1 0 1 1 1</bone>
+                </bones>
+            </node>
+        </nodes>
+    </face_graph>
+    <mapping>
+    </mapping>
+    <animation_groups>
+        <animation_group name="Default" />
+    </animation_groups>
+</actor>

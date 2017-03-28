@@ -1,0 +1,61 @@
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\Mono.Cecil.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEditor.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.Analytics.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.HoloLens.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.VR.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\Unity.DataContract.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.xml
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEditor.xml
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.UI.xml
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.Analytics.xml
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.HoloLens.xml
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.VR.xml
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\obj\Debug\Assembly-CSharp.dll
+D:\Work\Spring2017\Senior Project\Main\Senior-Project\UPDPharmacyUnity\obj\Debug\Assembly-CSharp.pdb
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Assembly-UnityScript-firstpass.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Phidget21.NET.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEditor.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.xml
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEditor.xml
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\obj\Debug\Assembly-CSharp.dll
+C:\Users\evanamstutz\Desktop\Pharmacy\UPDPharmacyUnity\obj\Debug\Assembly-CSharp.pdb

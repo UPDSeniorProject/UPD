@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NerveSpec>
+
+	<source var="lPilocarpine">
+		<nerve id="lPilocarpineNerve">
+			<channel num="0">
+				<minmaxsink id="lPupil"><sink var="lPupil"/></minmaxsink>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="rPilocarpine">
+		<nerve id="rPilocarpineNerve">
+			<channel num="0">
+				<minmaxsink id="rPupil"><sink var="rPupil"/></minmaxsink>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="lForceConstriction">
+		<nerve id="lForceConstrictionNerve">
+			<channel num="0">
+				<minmaxsink id="lPupil"/>
+			</channel>
+		</nerve>
+	</source>
+
+
+	<source var="rForceConstriction">
+		<nerve id="rForceConstrictionNerve">
+			<channel num="0">
+				<minmaxsink id="rPupil"/>
+			</channel>
+		</nerve>
+	</source>
+
+ 
+	<source var="crossEye">
+		<nerve id="crossEyeNerve">
+
+			<channel num="0">
+				<instanerve id="lPupilResponseHack">
+					<channel num="0">
+						<nerve id="lcn3b">
+							<channel num="0">
+								<minmaxsink id="lPupil"/>
+							</channel>
+						</nerve>
+					</channel>
+				</instanerve>
+			</channel>
+			<channel num="1">
+				<instanerve id="rPupilResponseHack">
+					<channel num="0">
+						<nerve id="rcn3b">
+							<channel num="0">
+								<minmaxsink id="rPupil"/>
+							</channel>
+						</nerve>
+					</channel>
+				</instanerve>
+			</channel> 
+		</nerve>
+	</source>
+
+
+	<source var="leye">
+		<nerve id="lcn2">
+
+			<channel num="0">
+				<instanerve id="lDisableLightResponse">
+					<channel num="0">
+						<instanerve id="lPupilResponseHack">
+							<channel num="0"/>
+						</instanerve>
+					</channel>
+				</instanerve>
+				
+				<instanerve id="rDisableLightResponse">
+					<channel num="0">
+						<instanerve id="rPupilResponseHack">
+							<channel num="0"/>
+						</instanerve>
+					</channel>
+				</instanerve>
+			</channel>
+
+		</nerve>
+	</source>
+
+
+	<source var="reye">
+		<nerve id="rcn2">
+			<channel num="0">
+			
+				<instanerve id="lDisableLightResponse">
+					<channel num="0"/>
+				</instanerve>
+
+				<instanerve id="rDisableLightResponse">
+					<channel num="0"/>
+				</instanerve>
+
+			</channel>
+		</nerve>
+	</source>
+
+
+	<source var="lPhenylephrine" default="0.1">
+		<nerve id="lPhenylephrineHack">
+			<channel num="0">
+				<negsink>
+					<minmaxsink id="lPupil"/>
+				</negsink>
+			</channel>
+			<channel num="1">
+				<multsink factor="0.3"><minsumsink id="lEyelidMovement"><sink var="lEyelidMovement"/></minsumsink></multsink>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="rPhenylephrine" default="0.1">
+		<nerve id="rPhenylephrineHack">
+			<channel num="0">
+				<negsink>
+					<minmaxsink id="rPupil"/>
+				</negsink>
+			</channel>
+			<channel num="1">
+				<multsink factor="0.3"><minsumsink id="rEyelidMovement"><sink var="rEyelidMovement"/></minsumsink></multsink>
+			</channel>
+		</nerve>
+	</source>
+
+
+	<source var="lAdrenaline" default="0.5">
+		<nerve id="lCentralNerve">
+			<channel num="0">
+				<nerve id="lPostGanglionNerve">
+					<channel num="0">
+						<negsink>
+							<minmaxsink id="lPupil"/>
+						</negsink>
+					</channel>
+				</nerve>	
+			</channel>
+		</nerve>
+	</source>
+
+
+	<source var="rAdrenaline" default="0.5">
+		<nerve id="rCentralNerve">
+			<channel num="0">
+				<nerve id="rPostGanglionNerve">
+					<channel num="0">
+						<negsink>
+							<minmaxsink id="rPupil"/>
+						</negsink>
+					</channel>
+				</nerve>	
+			</channel>
+		</nerve>
+	</source>
+
+
+	<source var="lHydroxyamp">
+		<nerve id="lHydoxyampNerve">
+			<channel num="0">
+				<nerve id="lPostGanglionNerve">
+					<channel num="0"/>
+				</nerve>
+			</channel>
+		</nerve>
+	</source>
+	
+
+
+	<source var="rHydroxyamp">
+		<nerve id="rHydoxyampNerve">
+			<channel num="0">
+				<nerve id="rPostGanglionNerve">
+					<channel num="0"/>
+				</nerve>
+			</channel>
+		</nerve>
+	</source>
+
+
+
+	<source var="lEyeCtrl" index="0">
+		<nerve id="lcn6">
+			<channel num="0">
+				<sink var="leyemove" index="0"/>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="lEyeCtrl" index="1">
+		<nerve id="lcn3">
+			<channel num="2">
+				<sink var="leyemove" index="1"/>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="lEyeCtrl" index="2">
+		<nerve id="lcn3">
+			<channel num="3">
+				<sink var="leyemove" index="2"/>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="lEyeCtrl" index="3">
+		<nerve id="lcn3">
+			<channel num="4">
+				<sink var="leyemove" index="3"/>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="lEyeCtrl" index="4">
+		<nerve id="lcn4">
+			<channel num="0">
+				<sink var="leyemove" index="4"/>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="lEyeCtrl" index="5">
+		<nerve id="lcn3">
+			<channel num="5">
+				<sink var="leyemove" index="5"/>
+			</channel>
+		</nerve>
+	</source>
+
+
+	<source var="rEyeCtrl" index="0">
+		<nerve id="rcn6">
+			<channel num="0">
+				<sink var="reyemove" index="0"/>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="rEyeCtrl" index="1">
+		<nerve id="rcn3">
+			<channel num="2">
+				<sink var="reyemove" index="1"/>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="rEyeCtrl" index="2">
+		<nerve id="rcn3">
+			<channel num="3">
+				<sink var="reyemove" index="2"/>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="rEyeCtrl" index="3">
+		<nerve id="rcn3">
+			<channel num="4">
+				<sink var="reyemove" index="3"/>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="rEyeCtrl" index="4">
+		<nerve id="rcn4">
+			<channel num="0">
+				<sink var="reyemove" index="4"/>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="rEyeCtrl" index="5">
+		<nerve id="rcn3">
+			<channel num="5">
+				<sink var="reyemove" index="5"/>
+			</channel>
+		</nerve>
+	</source>
+
+
+
+	<source var="lEyelidMovementCtrl">
+		<nerve id="lcn3">
+			<channel num="1">
+				<multsink factor="0.7"><minsumsink id="lEyelidMovement"/></multsink>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="rEyelidMovementCtrl">
+		<nerve id="rcn3">
+			<channel num="1">
+				<multsink factor="0.7"><minsumsink id="rEyelidMovement"/></multsink>
+			</channel>
+		</nerve>
+	</source>
+
+	<source var="superiorTarsalSource" default="1.0">
+		<nerve id="lCentralNerve">
+			<channel num="1">
+				<nerve id="lPostGanglionNerve">
+					<channel num="1">
+						<multsink factor="0.3"><minsumsink id="lEyelidMovement"/></multsink>
+					</channel>
+				</nerve>				
+			</channel>
+		</nerve>
+
+		<nerve id="rCentralNerve">
+			<channel num="1">
+				<nerve id="rPostGanglionNerve">
+					<channel num="1">
+						<multsink factor="0.3"><minsumsink id="rEyelidMovement"/></multsink>
+					</channel>
+				</nerve>				
+			</channel>
+		</nerve>
+
+	</source>
+
+
+
+	<source var="llEyelidMovementCtrl">
+		<nerve id="lcn7">
+			<channel num="2">
+				<cutoffsink factor="0.7"><minsumsink id="llEyelidMovement"><sink var="llEyelidMovement"/></minsumsink></cutoffsink>
+			</channel>
+		</nerve>
+	</source>
+
+
+	<source var="rlEyelidMovementCtrl">
+		<nerve id="rcn7">
+			<channel num="2">
+				<cutoffsink factor="0.7">
+					<minsumsink id="rlEyelidMovement">
+						<sink var="rlEyelidMovement"/>
+					</minsumsink>
+				</cutoffsink>
+			</channel>
+		</nerve>
+	</source>
+	
+	<source var="lBlinkCtrl">
+		<nerve id="lcn7">
+			<channel num="0">
+				<negsink><minsumsink id="lEyelidMovement"/></negsink>
+			</channel>
+			<channel num="1">
+				<minsumsink id="llEyelidMovement"/>
+			</channel>
+		</nerve>
+	</source>
+
+
+	<source var="rBlinkCtrl">
+		<nerve id="rcn7">
+			<channel num="0">
+				<negsink><minsumsink id="rEyelidMovement"/></negsink>
+			</channel>
+			<channel num="1">
+				<minsumsink id="rlEyelidMovement"/>
+			</channel>
+		</nerve>
+	</source>
+
+
+</NerveSpec>
